@@ -45,10 +45,10 @@ checkBtn.addEventListener('click', btn => {
         score.textContent = scoreNumber;
     } else {
         message.textContent = 'Correct!'
-        divThatChangesColor.style.backgroundColor = 'green'
+        divThatChangesColor.style.backgroundColor = 'green';
         numberLabel.textContent = randNum;
         if (scoreNumber > highScoreVal) {
-            highScoreVal = scoreNumber
+            highScoreVal = scoreNumber;
             highScore.textContent = scoreNumber;
         }
         
